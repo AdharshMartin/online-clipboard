@@ -62,6 +62,7 @@ def sync_logic(current_text):
         st.session_state.last_saved_time = now
         st.toast("Saved to Cloud")
 
+
 # ---------- HEADER SECTION ----------
 col_head, col_meta = st.columns([7, 3])
 with col_head:
